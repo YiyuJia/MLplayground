@@ -18,6 +18,7 @@ import tensornets as nets
 parser = argparse.ArgumentParser()
 parser.add_argument("-e", help="specify epoch number", default=7, type=int)
 parser.add_argument("-b", help="specify batch size", default=32, type=int)
+parser.add_argument("-r", help="specify learning rate", default=0.00001, type=float)
 
 args = parser.parse_args()
 
